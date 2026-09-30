@@ -28,7 +28,7 @@ The plugin never sends email and has no access to your mailbox. You send the tes
 | `write_fix_plan` | Asks for the AI fix plan of one letter in a series |
 | `close_series_mailbox` | Stops a permanent address from keeping letters |
 
-Every tool also returns structured content for the card (`ui://widget/email-spam-tester-v2.html`, an MCP Apps resource). Clients that draw no card get the same result as text.
+Every tool also returns structured content for the card (`ui://widget/email-spam-tester-v3.html`, an MCP Apps resource). Clients that draw no card get the same result as text.
 
 ## Other clients
 
