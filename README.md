@@ -9,7 +9,7 @@ It runs on [Email Spam Tester](https://email-spam-tester.com). This repository h
 ## What you can ask
 
 - *Check my email for spam problems before I send it.* You get a one-hour address. The report covers SPF, DKIM and DMARC with alignment, reverse DNS, TLS, 21 blocklists, links, HTML structure, the Gmail and Yahoo bulk-sender rules, SpamAssassin and Rspamd, and ends with a fix plan.
-- *Test my newsletter and show which folder it lands in at different providers.* Same send, one list of recipients and a marker for the subject. The card fills in inbox, promotions or spam provider by provider over the next half hour. The provider inboxes are shared test inboxes, so send something that is not confidential.
+- *Test my newsletter and show which folder it lands in at different providers.* Same send: a marker for the subject, and the provider inboxes to add as recipients, listed on the test page with a button that copies them all. The card fills in inbox, promotions or spam provider by provider over the next half hour. The provider inboxes are shared test inboxes, so send something that is not confidential.
 - *Give me a permanent address to track the welcome series of example.com.* The address stays yours. Subscribe it to your own list and every letter that arrives gets the full check; the card shows the series and what keeps going wrong in it.
 
 The plugin never sends email and has no access to your mailbox. You send the test message yourself, from the real platform, because half of the checks read what that platform adds.
@@ -28,7 +28,7 @@ The plugin never sends email and has no access to your mailbox. You send the tes
 | `write_fix_plan` | Asks for the AI fix plan of one letter in a series |
 | `close_series_mailbox` | Stops a permanent address from keeping letters |
 
-Every tool also returns structured content for the card (`ui://widget/email-spam-tester-v3.html`, an MCP Apps resource). Clients that draw no card get the same result as text.
+Every tool also returns structured content for the card (`ui://widget/email-spam-tester-v4.html`, an MCP Apps resource). Clients that draw no card get the same result as text.
 
 ## Other clients
 
